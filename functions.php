@@ -16,4 +16,7 @@
     formatBlog(["title" => "Nishant's Blog", "author" => "nishant", "likes" => 20]);
     $sum = addNumbers();
     echo $sum;
+
+    $gender = $_COOKIE["gender"] ?? "Unknown";
+    echo $gender;
 ?>
